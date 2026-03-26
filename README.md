@@ -9,5 +9,5 @@ navbar - demohttps://veeramanikandan19.github.io/front-end-development/navbar.ht
 <img width="684" height="222" alt="image" src="https://github.com/user-attachments/assets/81da7f52-5bf8-425a-8f58-9750ed50ff17" />
 Hover demo- https://veeramanikandan19.github.io/front-end-development/hover.html
 <img width="443" height="325" alt="image" src="https://github.com/user-attachments/assets/61176970-0064-47ba-bdc6-afe83906ee60" />
-
-
+validation demo https://veeramanikandan19.github.io/front-end-development/validation.html?
+<img width="1045" height="401" alt="Screenshot 2026-03-26 152108" src="https://github.com/user-attachments/assets/0b77ae84-cf35-4699-9b50-072c6691e1cc" />
