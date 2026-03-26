@@ -11,3 +11,6 @@ Hover demo- https://veeramanikandan19.github.io/front-end-development/hover.html
 <img width="443" height="325" alt="image" src="https://github.com/user-attachments/assets/61176970-0064-47ba-bdc6-afe83906ee60" />
 validation demo https://veeramanikandan19.github.io/front-end-development/validation.html?
 <img width="1045" height="401" alt="Screenshot 2026-03-26 152108" src="https://github.com/user-attachments/assets/0b77ae84-cf35-4699-9b50-072c6691e1cc" />
+maths demo  https://veeramanikandan19.github.io/front-end-development/maths.html
+<img width="387" height="548" alt="Screenshot 2026-03-26 152933" src="https://github.com/user-attachments/assets/5493159d-3ab9-4f17-b7a8-553ce7ebcea9" />
+
