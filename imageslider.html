@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+      background:#111;
+    }
+
+    .slider{
+      width:700px;
+      height:400px;
+      position:relative;
+      overflow:hidden;
+      border-radius:15px;
+      box-shadow:0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .slides{
+      display:flex;
+      width:300%;
+      height:100%;
+      transition:0.5s;
+    }
+
+    .slides img{
+      width:700px;
+      height:400px;
+      object-fit:cover;
+    }
+
+    button{
+      position:absolute;
+      top:50%;
+      transform:translateY(-50%);
+      background:rgba(0,0,0,0.5);
+      color:white;
+      border:none;
+      padding:15px;
+      cursor:pointer;
+      font-size:20px;
+      border-radius:50%;
+    }
+
+    .prev{
+      left:15px;
+    }
+
+    .next{
+      right:15px;
+    }
+
+    button:hover{
+      background:black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="slider">
+    <div class="slides" id="slides">
+      <img src="https://picsum.photos/id/1015/700/400" alt="">
+      <img src="https://picsum.photos/id/1016/700/400" alt="">
+      <img src="https://picsum.photos/id/1018/700/400" alt="">
+    </div>
+
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+  </div>
+
+  <script>
+    let index = 0;
+    const slides = document.getElementById("slides");
+    const totalSlides = 3;
+
+    function showSlide() {
+      slides.style.transform = `translateX(-${index * 700}px)`;
+    }
+
+    function nextSlide() {
+      index++;
+      if(index >= totalSlides){
+        index = 0;
+      }
+      showSlide();
+    }
+
+    function prevSlide() {
+      index--;
+      if(index < 0){
+        index = totalSlides - 1;
+      }
+      showSlide();
+    }
+
+    // Auto Slide
+    setInterval(nextSlide, 3000);
+  </script>
+
+</body>
+</html>
