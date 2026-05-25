@@ -20,6 +20,8 @@ eventhand demo https://veeramanikandan19.github.io/front-end-development/eventha
 <img width="909" height="464" alt="Screenshot 2026-05-12 114622" src="https://github.com/user-attachments/assets/2e9bba67-c959-4f47-9197-91f1c6a0f609" />
 imageslider demo https://veeramanikandan19.github.io/front-end-development/imageslider.html
 <img width="1355" height="668" alt="image" src="https://github.com/user-attachments/assets/a7252a2c-1983-4363-93bf-99526b8e84a7" />
+simpleweb demo https://veeramanikandan19.github.io/front-end-development/simpleweb.HTML
+<img width="963" height="623" alt="image" src="https://github.com/user-attachments/assets/b95aaf52-1758-47a3-ba78-7d0e3033ca3f" />
 
 
 
