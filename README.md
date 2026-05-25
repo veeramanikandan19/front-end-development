@@ -18,6 +18,9 @@ dotolist demo https://veeramanikandan19.github.io/front-end-development/dotolist
 <img width="875" height="375" alt="Screenshot 2026-04-06 112551" src="https://github.com/user-attachments/assets/76cffd40-e1bf-4b68-a226-c4a85201fcea" />
 eventhand demo https://veeramanikandan19.github.io/front-end-development/eventhand.html
 <img width="909" height="464" alt="Screenshot 2026-05-12 114622" src="https://github.com/user-attachments/assets/2e9bba67-c959-4f47-9197-91f1c6a0f609" />
+imageslider demo https://veeramanikandan19.github.io/front-end-development/imageslider.html
+<img width="1355" height="668" alt="image" src="https://github.com/user-attachments/assets/a7252a2c-1983-4363-93bf-99526b8e84a7" />
+
 
 
 
