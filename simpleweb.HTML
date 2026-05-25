@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Songs UI</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#121212;
+      color:white;
+      padding:30px;
+    }
+
+    h1{
+      text-align:center;
+      color:#1DB954;
+      margin-bottom:40px;
+      font-size:45px;
+    }
+
+    .container{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:25px;
+    }
+
+    .song-box{
+      background:#181818;
+      padding:25px;
+      border-radius:15px;
+      transition:0.3s;
+      box-shadow:0 5px 10px rgba(0,0,0,0.3);
+    }
+
+    .song-box:hover{
+      transform:scale(1.03);
+      background:#282828;
+    }
+
+    .song-box h2{
+      color:#1DB954;
+      margin-bottom:20px;
+      text-align:center;
+    }
+
+    .song-box h3{
+      background:#222;
+      padding:12px;
+      border-radius:8px;
+      margin:10px 0;
+      font-size:18px;
+      transition:0.3s;
+      cursor:pointer;
+    }
+
+    .song-box h3:hover{
+      background:#1DB954;
+      color:black;
+    }
+
+    @media(max-width:900px){
+
+      .container{
+        grid-template-columns:1fr;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Spotify Songs Collection</h1>
+
+  <div class="container">
+
+    <!-- Tamil -->
+    <div class="song-box">
+      <h2>Tamil Songs</h2>
+      <h3>kgf 2 "mehabooba song "</h3>
+      <h3>Leo "naan ready than varavaa "</h3>
+      <h3>Master"master the blaster "</h3>
+      <h3>Beast "alabic kuthu"</h3>
+      <h3>Ghilli "appadi potu appadi potu"</h3>
+      <h3>merasal "neethane neethane"</h3>
+      
+    </div>
+
+
+    <!-- Telugu -->
+    <div class="song-box">
+      <h2>Telugu Songs</h2>
+
+      <h3>Pushpa</h3>
+      <h3>RRR</h3>
+      <h3>Ala Vaikunthapurramuloo</h3>
+      <h3>DJ Tillu</h3>
+      <h3>Baahubali</h3>
+    </div>
+
+
+    <!-- Malayalam -->
+    <div class="song-box">
+      <h2>Malayalam Songs</h2>
+
+      <h3>Premam "malare unnai kanathe nunna "</h3>
+      <h3>Hridayam</h3>
+      <h3>Minnal Murali</h3>
+      <h3>Bangalore Days</h3>
+      <h3>Lucifer</h3>
+    </div>
+
+
+    <!-- Kannada -->
+    <div class="song-box">
+      <h2>Kannada Songs</h2>
+
+      <h3>KGF</h3>
+      <h3>Kantara</h3>
+      <h3>Charlie 777</h3>
+      <h3>Yuvarathnaa</h3>
+      <h3>Robert</h3>
+    </div>
+
+
+    <!-- Hindi -->
+    <div class="song-box">
+      <h2>Hindi Songs</h2>
+
+      <h3>Pathaan</h3>
+      <h3>Jawan</h3>
+      <h3>Animal</h3>
+      <h3>War</h3>
+      <h3>Dhoom</h3>
+    </div>
+
+
+    <!-- English -->
+    <div class="song-box">
+      <h2>English Songs</h2>
+
+      <h3>Believer</h3>
+      <h3>Shape of You</h3>
+      <h3>Perfect</h3>
+      <h3>Stay</h3>
+      <h3>Faded</h3>
+    </div>
+
+  </div>
+  <footer>
+    <h1>home</h1>
+    <h2>about</h2>
+    <h2>contact</h2>
+  </footer>
+
+</body>
+</html>
