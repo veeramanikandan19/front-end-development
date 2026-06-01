@@ -30,6 +30,9 @@ font demo https://veeramanikandan19.github.io/front-end-development/font.html
 <img width="1276" height="666" alt="Screenshot 2026-06-01 100227" src="https://github.com/user-attachments/assets/b7dd920e-eeb1-4748-b4a8-2abd2a15b57c" />
 react demo https://veeramanikandan19.github.io/front-end-development/react.html
 <img width="1286" height="659" alt="Screenshot 2026-06-01 100905" src="https://github.com/user-attachments/assets/a4d7b63f-553b-4218-8241-5227a4c5ebf4" />
+development demo https://veeramanikandan19.github.io/front-end-development/development.html
+<img width="1141" height="651" alt="Screenshot 2026-06-01 101520" src="https://github.com/user-attachments/assets/37b521cc-1d8f-4e41-b66e-5cc4e32556bf" />
+
 
 
 
