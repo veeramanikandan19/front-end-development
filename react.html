@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Single Page Layout</title>
+
+    <!-- React CDN -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Babel CDN -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            flex: 1;
+        }
+
+        .sidebar {
+            width: 250px;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .sidebar li {
+            margin: 15px 0;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .main {
+            flex: 1;
+            padding: 30px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script type="text/babel">
+
+function App() {
+    return (
+        <div className="container">
+
+            <header className="header">
+                <h1>React Single Page Application</h1>
+            </header>
+
+            <div className="content">
+
+                <aside className="sidebar">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </aside>
+
+                <main className="main">
+
+                    <section id="home" className="section">
+                        <h2>Home</h2>
+                        <p>
+                            Welcome to this React Single Page Application.
+                            This page is built using React components.
+                        </p>
+                    </section>
+
+                    <section id="about" className="section">
+                        <h2>About</h2>
+                        <p>
+                            React allows developers to create reusable UI
+                            components and build modern web applications.
+                        </p>
+                    </section>
+
+                    <section id="services" className="section">
+                        <h2>Services</h2>
+                        <p>
+                            We provide web development, UI design,
+                            and React application development services.
+                        </p>
+                    </section>
+
+                    <section id="contact" className="section">
+                        <h2>Contact</h2>
+                        <p>Email: info@example.com</p>
+                        <p>Phone: +1 234 567 890</p>
+                    </section>
+
+                </main>
+
+            </div>
+
+            <footer className="footer">
+                <p>&copy; 2026 React SPA Demo. All Rights Reserved.</p>
+            </footer>
+
+        </div>
+    );
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
+
+</script>
+
+</body>
+</html>
